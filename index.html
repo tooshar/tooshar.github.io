@@ -5,77 +5,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
-
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/main.css">
   <title>Welcome To Tushar's Portfolio</title>
 </head>
 
-<body id="bg-img">
+<body>
   <header>
-    <div class="menu-btn">
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-    </div>
 
-    <nav class="menu">
-      <div class="menu-branding">
-        <div class="portrait"></div>
-      </div>
-      <ul class="menu-nav">
-        <li class="nav-item current">
-          <a href="index.html" class="nav-link">
-            Home
-          </a>
-        </li>
-        <!-- <li class="nav-item">
-          <a href="about.html" class="nav-link">
-            About Me
-          </a>
-        </li> -->
-        <!-- <li class="nav-item">
-          <a href="work.html" class="nav-link">
-            My Work
-          </a>
-        </li> -->
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">
-            How To Reach Me
-          </a>
-        </li>
-      </ul>
-    </nav>
   </header>
-
-  <main id="home">
-    <h1 class="lg-heading">
-      Tushar
-      <span class="text-secondary">Prajapati</span>
-    </h1>
-    <h2 class="sm-heading">
-      Full Stack Developer, Cyber Security Expert, Blogger, Sports person, Artist, Speaker, Spiritual, Enthusiast, and much more. 
-    </h2>
-    <div class="icons">
-      <!-- <a href="#!">
-        <i class="fab fa-twitter fa-2x"></i>
-      </a> -->
-      <!-- <a href="https://www.facebook.com/bktusharprajapati">
-        <i class="fab fa-facebook fa-2x"></i>
-      </a> -->
-      <a href="https://linkedin.com/in/tushar-prajapati-935bbb106/">
-        <i class="fab fa-linkedin fa-2x"></i>
-      </a>
-      <a href="https://github.com/tooshar">
-        <i class="fab fa-github fa-2x"></i>
-      </a>
-      <a href="https://gitlab.com/tusharprajapati">
-        <i class="fab fa-gitlab fa-2x"></i>
-      </a>
+  <canvas id="canvas-image-blending"></canvas>
+  <main>
+    <div class="moon">
+      <i class="fa-solid fa-moon fa-2x"></i>
     </div>
+    <div class="info">
+      <h1>
+        Tushar
+        <span class="surname">Prajapati</span>
+      </h1>
+      <div>
+        <a href="https://linkedin.com/in/tprajapati" target="_blank" class="icons">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://leetcode.com/tushar_prajapati/" target="_blank" class="icons">
+          <i class="fa-solid fa-code"></i>
+        </a>
+        <a href="https://github.com/tooshar" target="_blank" class="icons">
+          <i class="fab fa-github"></i>
+        </a>
+        <!-- <a href="https://gitlab.com/tusharprajapati" target="_blank">
+          <i class="fab fa-gitlab"></i>
+        </a> -->
+      </div>
+      <ul>
+        <li>Senior Frontend Engineer at <a href="https://argonaut.dev" target="_blank">Argonaut</a></li>
+        <li>Chess player</li>
+        <li>Sports person</li>
+        <li>Artist</li>
+        <li>Spiritual</li>
+        <li>Enthusiast</li>
+        <li>Traveller</li>
+        <li>Foodie</li>
+        <li>A nice guy to know :)</li>
+      </ul>
+      <hr />
+      <div style="margin-top:10px">Past</div>
+      <ul>
+        <li>MEAN stack developer</li>
+        <li>Ethical hacker</li>
+        <li>Blogger</li>
+      </ul>
+
+    </div>
+
   </main>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
