@@ -162,6 +162,17 @@ main {
   letter-spacing: 0.8px;
   cursor: default;
 }
+.sun {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  animation: spin 10s linear infinite;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .moon {
   position: fixed;
   top: 10px;
